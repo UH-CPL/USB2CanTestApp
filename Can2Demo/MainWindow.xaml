@@ -1,0 +1,17 @@
+﻿<Window x:Name="Can2Tool" x:Class="Can2Tool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="700.504" Closing="Can2Tool_Closing">
+    <Grid>
+        <Button x:Name="TaStart" Content="Start" HorizontalAlignment="Left" Margin="26,276,0,0" VerticalAlignment="Top" Width="75" Click="TaStart_Click"/>
+        <TextBox x:Name="Display" HorizontalAlignment="Left" Height="217" Margin="26,22,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="642"/>
+        <Button x:Name="TaSend" Content="Send" HorizontalAlignment="Left" Height="20" Margin="124,276,0,0" VerticalAlignment="Top" Width="64" Click="TaSend_Click"/>
+        <Button x:Name="TaStatistic" Content="Statistic" HorizontalAlignment="Left" Height="20" Margin="211,276,0,0" VerticalAlignment="Top" Width="62" Click="TaStatistic_Click"/>
+        <Button x:Name="TaRx" Content="StartReceive" HorizontalAlignment="Left" Height="20" Margin="290,277,0,0" VerticalAlignment="Top" Width="74" Click="TaRx_Click"/>
+        <TextBox x:Name="textBoxFilename" HorizontalAlignment="Left" Height="23" Margin="475,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Label x:Name="label" Content="Filename:" HorizontalAlignment="Left" Margin="411,247,0,0" VerticalAlignment="Top" Width="61" Height="23"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="533,279,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+        <Button x:Name="StopReceive" Content="StopReceive" HorizontalAlignment="Left" Margin="381,277,0,0" VerticalAlignment="Top" Width="75" Click="StopReceive_Click"/>
+
+    </Grid>
+</Window>
